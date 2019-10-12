@@ -1,0 +1,12 @@
+@import 'utils';
+@import 'reset';
+@import 'paginas';
+@import 'single';
+@import 'footer';
+@import 'header';
+@import 'index';
+@import 'contact';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+$fa-font-path:"/wp-content/themes/subtitlepro2/fonts" !default;
+@import '../node_modules/font-awesome/scss/font-awesome';

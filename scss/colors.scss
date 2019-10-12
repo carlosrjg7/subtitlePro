@@ -1,0 +1,75 @@
+// bases
+$black: #000000;
+$white:#ffffff;
+
+// color primario
+$green-pr: #00c853;
+$green-lg: #5efc82;
+$green-dk: #009624;
+
+// color secundario
+$grey-sd: #212121;
+$grey-lg: #484848;
+$grey-dk: #000000;
+
+// fondos
+.bg{
+  // bases
+  &.white{
+    background-color: #fff;
+  }
+  &.black{
+    background-color: #000;
+  }
+  // verdes
+  &.green-pr{
+    background-color: $green-pr;
+  }
+  &.green-lg{
+    background-color: $green-lg;
+  }
+  &.green-dk{
+    background-color: $green-dk;
+  }
+  // grises
+  &.grey-sd{
+    background-color: $grey-sd;
+  }
+  &.grey-lg{
+    background-color: $grey-lg;
+  }
+  &.grey-dk{
+    background-color: $grey-dk;
+  }
+}
+
+// color textos
+
+.tx{
+  &.white{
+    color: #fff;
+  }
+  &.black{
+    color: #000;
+  }
+  // verdes
+  &.green-pr{
+    color: $green-pr;
+  }
+  &.green-lg{
+    color: $green-lg;
+  }
+  &.green-dk{
+    color: $green-dk;
+  }
+  // grises
+  &.grey-sd{
+    color: $grey-sd;
+  }
+  &.grey-lg{
+    color: $grey-lg;
+  }
+  &.grey-dk{
+    color: $grey-dk;
+  }
+}

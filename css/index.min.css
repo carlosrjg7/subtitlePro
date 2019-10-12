@@ -1,0 +1,55 @@
+.index .marcas .center .marca,.index .marcas .center .marca img,.index .servicios .center a.card .imagen img{width:100%}
+.bg.white,.index .servicios .center,.index .textoBlock1{background-color:#fff}
+.bg.black{background-color:#000}
+.bg.green-pr,.index .bloqueFinal .block1,.index .bloqueFinal .enlace a._bg2,.index .servicios .center a.card .circle{background-color:#00c853}
+.bg.green-lg,.index .bloqueFinal .enlace a._bg2:hover,.index .servicios .center a.card .circle:hover{background-color:#5efc82}
+.bg.green-dk{background-color:#009624}
+.bg.grey-sd,.index .bloqueFinal .block2,.index .bloqueFinal .enlace a._bg1{background-color:#212121}
+.bg.grey-lg,.index .bloqueFinal .enlace a._bg1:hover,.index .servicios .center a.card .content,.index .textoBanner1,.index .textoBanner2{background-color:#484848}
+.bg.grey-dk{background-color:#000}
+.index .bloqueFinal,.index .bloqueFinal .enlace,.index .bloqueFinal .enlace a,.index .servicios .center a.card .circle,.index .servicios .center a.card .content p,.index .servicios .center a.card .content span,.index .textoBanner1,.index .textoBanner2 .textos,.tx.white{color:#fff}
+.tx.black{color:#000}
+.tx.green-pr{color:#00c853}
+.tx.green-lg{color:#5efc82}
+.tx.green-dk{color:#009624}
+.index .servicios .center h2,.index .textoBlock1,.tx.grey-sd{color:#212121}
+.index .servicios .center a:hover,.tx.grey-lg{color:#484848}
+.index .servicios .center,.index .servicios .center a,.tx.grey-dk{color:#000}
+@font-face{font-family:BenchNine-bold;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Bold.ttf);font-style:normal;font-weight:700}
+@font-face{font-family:BenchNine-reg;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Regular.ttf);font-style:normal;font-weight:700}
+@font-face{font-family:BenchNine-lig;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Light.ttf);font-style:normal;font-weight:700}
+.fontFBold{font-family:BenchNine-bold}
+.fontFReg{font-family:BenchNine-reg}
+.fontFLight{font-family:BenchNine-lig}
+h1{font-size:2rem}
+h2{font-size:1.5rem}
+a,h3,p{font-size:1rem}
+.center{margin:0 auto}
+.no_pad{padding:0!important}
+.no_mg{margin:0}
+.index .textoBanner1{text-align:center;padding:2rem}
+.index .textoBanner1 h1{font-size:1.5rem}
+.index .textoBanner1 p{font-size:1rem}
+.index .servicios .center{margin:0 auto 2em;padding:2rem}
+.index .servicios .center h2{font-size:1.5rem;text-align:center;margin:1.5rem}
+.index .servicios .center a{text-decoration:none}
+.index .servicios .center a.card{position:relative;text-decoration:none;box-shadow:0 5px 10px 0 rgba(0,0,0,.3);overflow:hidden}
+.index .servicios .center a.card .circle{position:absolute;padding:.7rem 1rem;border-radius:25px;bottom:17%;right:10%;box-shadow:0 5px 10px 0 rgba(0,0,0,.3)}
+.index .servicios .center a.card._mt{margin-top:2rem}
+.index .servicios .center a.card .content{padding:.5rem}
+.index .servicios .center a.card .content p{margin:0;font-weight:700}
+.index .textoBanner2{padding:2rem}
+.index .textoBanner2 .imagen{text-align:center}
+.index .textoBanner2 .imagen img{width:100%;border-radius:10px;box-shadow:0 5px 10px 0 rgba(0,0,0,.3)}
+.index .textoBanner2 .textos{margin:7% auto;text-align:justify}
+.index .textoBlock1{padding:2rem;margin-top:3rem;margin-bottom:1rem}
+.index .textoBlock1 h2{text-align:center;font-size:1.5rem}
+.index .textoBlock1 p{font-size:1rem;text-align:justify}
+.index .marcas{margin-bottom:3rem}
+.index .marcas .center{margin:0 auto}
+.index .bloqueFinal{text-align:justify}
+.index .bloqueFinal h2{text-align:center;font-size:1.5rem}
+.index .bloqueFinal p{font-size:1rem}
+.index .bloqueFinal .enlace{margin-top:3rem;text-align:center}
+.index .bloqueFinal .enlace a{text-decoration:none;font-size:1.2rem;padding:.5rem 2rem;box-shadow:0 5px 10px 0 rgba(0,0,0,.3);border-radius:25px}
+.index .bloqueFinal .block1,.index .bloqueFinal .block2{padding:3rem}

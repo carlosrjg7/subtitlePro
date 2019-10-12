@@ -1,0 +1,52 @@
+@import 'utils';
+
+.footer_subtitle{
+	@extend .bg.grey-lg;
+	.canyouhelp{
+		@extend .tx.white;
+		@extend .bg.green-pr;
+		height: 10rem;
+		text-align: center;
+		padding: 2rem;
+		@extend	.fontFBold;
+		h2{
+			font-size: 2.5rem;
+		}
+		p{
+			margin:0px;
+			font-size: 2rem;
+		}
+	}
+
+	.footerSp{
+		height: 4rem;
+		@extend .tx.white;
+		padding-top: 2rem;
+		padding: 1rem;
+		h3{
+			font-size: 1rem;
+			text-align: left;
+		}
+		a{
+			text-decoration: none;
+			@extend .tx.white;
+			text-align: right;
+		}
+	}
+
+	.redes{
+		padding: 1rem;
+		@extend .tx.white;
+		text-align: right;
+		a{
+			text-decoration: none;
+			margin: 0.5rem;
+			@extend .tx.white;
+			font-size: 2rem;
+			&:hover{
+				@extend .tx.grey-sd;
+			}
+		}
+	}
+
+}

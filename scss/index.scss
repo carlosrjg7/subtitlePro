@@ -1,0 +1,188 @@
+@import 'utils';
+
+.index{
+
+  .slider{
+
+  }
+
+.textoBanner1{
+  @extend .bg.grey-lg;
+  @extend .tx.white;
+  text-align: center;
+  padding: 2rem;
+  h1{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+}
+
+
+.servicios{
+  .center{
+    margin: 0 auto;
+    margin-bottom: 2em;
+  h2{
+    font-size: 1.5rem;
+    @extend .tx.grey-sd;
+    text-align: center;
+    margin: 1.5rem;
+  }
+  @extend .bg.white;
+  @extend .tx.grey-dk;
+  padding: 2rem;
+  a{
+    text-decoration: none;
+    @extend .tx.grey-dk;
+    &:hover{
+      @extend .tx.grey-lg;
+    }
+  &.card{
+      position: relative;
+      text-decoration: none;
+      -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    .circle{
+      @extend .tx.white;
+      position: absolute;
+      padding: 0.7rem 1rem;
+      border-radius: 25px;
+      @extend .bg.green-pr;
+      bottom: 17%;
+      right:10%;
+      -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      &:hover{
+        @extend .bg.green-lg;
+      }
+    }
+    &._mt{
+      margin-top: 2rem;
+    }
+    overflow: hidden;
+    .imagen{
+      img{
+        width: 100%;
+      }
+    }
+    .content{
+      padding: 0.5rem;
+      @extend .bg.grey-lg;
+      p{
+        margin: 0;
+        font-weight: 700;
+        @extend .tx.white;
+      }
+      span{
+        @extend .tx.white;
+      }
+    }
+  }
+}
+}
+}
+
+.textoBanner2{
+  padding: 2rem;
+  @extend .bg.grey-lg;
+
+ .imagen{
+   text-align: center;
+   img{
+     width: 100%;
+     border-radius: 10px;
+     -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+   }
+ }
+ .textos{
+   margin: 7% auto;
+   text-align: justify;
+   @extend .tx.white;
+ }
+}
+
+.textoBlock1{
+  @extend .bg.white;
+  @extend .tx.grey-sd;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+.marcas{
+  margin-bottom: 3rem;
+  .center{
+    margin: 0 auto;
+    .marca{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+.bloqueFinal{
+  @extend .tx.white;
+  h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  text-align: justify;
+  .enlace{
+    margin-top: 3rem;
+    text-align: center;
+    @extend .tx.white;
+    a{
+      text-decoration: none;
+      @extend .tx.white;
+      font-size: 1.2rem;
+      padding: 0.5rem 2rem;
+      -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+      border-radius: 25px;
+      &._bg1{
+          @extend .bg.grey-sd;
+        &:hover{
+          @extend .bg.grey-lg;
+        }
+      }
+
+      &._bg2{
+          @extend .bg.green-pr;
+          &:hover{
+            @extend .bg.green-lg;
+          }
+      }
+    }
+  }
+  .block1{
+    @extend .bg.green-pr;
+    padding: 3rem;
+  }
+  .block2{
+    @extend .bg.grey-sd;
+    padding: 3rem;
+  }
+}
+
+
+}

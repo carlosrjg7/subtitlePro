@@ -1,0 +1,6 @@
+@font-face{font-family:BenchNine-bold;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Bold.ttf);font-style:normal;font-weight:700}
+@font-face{font-family:BenchNine-reg;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Regular.ttf);font-style:normal;font-weight:700}
+@font-face{font-family:BenchNine-lig;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Light.ttf);font-style:normal;font-weight:700}
+.fontFBold{font-family:BenchNine-bold}
+.fontFReg{font-family:BenchNine-reg}
+.fontFLight{font-family:BenchNine-lig}

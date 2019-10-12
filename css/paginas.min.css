@@ -1,0 +1,8 @@
+.pageSection .headerPage{position:relative}
+.pageSection .headerPage .imgDestacada{position:relative;width:100%}
+.pageSection .headerPage .imgDestacada img{width:100%;height:300px}
+.pageSection .headerPage .titulo{position:absolute;text-align:center;width:100%;top:25%;bottom:33%}
+.pageSection .headerPage .titulo h1{text-align:center;font-size:3rem;color:#fff;font-weight:700}
+.pageSection .paginas{text-align:justify;padding:3rem;width:100%}
+.pageSection .paginas .hide{display:none!important}
+.pageSection .paginas h2{text-align:center}

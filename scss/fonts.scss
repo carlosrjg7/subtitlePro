@@ -1,0 +1,41 @@
+// @font-face {
+//     font-family: 'BenchNine-bold';
+//     src: url('open-sans.eot');
+//     src: local('icomoonregular'),
+//          url('open-sans.eot?#iefix') format('embedded-opentype'),
+//          url('open-sans.woff') format('woff'),
+//          url('open-sans.ttf') format('truetype'),
+//          url('open-sans.svg#open-sans') format('svg');
+// }
+$fontProd: "/wp-content/themes/subtitlepro2/fonts/";
+
+@font-face {
+    font-family: 'BenchNine-bold';
+    src: url("#{$fontProd}BenchNine-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+  }
+
+@font-face {
+    font-family: 'BenchNine-reg';
+    src: url("#{$fontProd}BenchNine-Regular.ttf");
+    font-style: normal;
+    font-weight: 700;
+  }
+
+@font-face {
+    font-family: 'BenchNine-lig';
+    src: url("#{$fontProd}BenchNine-Light.ttf");
+    font-style: normal;
+    font-weight: 700;
+  }
+
+.fontFBold{
+  font-family: 'BenchNine-bold';
+}
+.fontFReg{
+  font-family: 'BenchNine-reg';
+}
+.fontFLight{
+  font-family: 'BenchNine-lig';
+}

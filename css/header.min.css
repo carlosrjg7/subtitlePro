@@ -1,0 +1,35 @@
+.headerSp,.headerSp .menu{width:100%}
+.bg.white,.headerSp{background-color:#fff}
+.bg.black{background-color:#000}
+.bg.green-pr{background-color:#00c853}
+.bg.green-lg{background-color:#5efc82}
+.bg.green-dk{background-color:#009624}
+.bg.grey-sd{background-color:#212121}
+.bg.grey-lg{background-color:#484848}
+.bg.grey-dk{background-color:#000}
+.headerSp .menu ul li.current_page_item a,.tx.white{color:#fff}
+.tx.black{color:#000}
+.headerSp .site-branding a,.headerSp .site-branding h1,.headerSp .site-branding p,.tx.green-pr{color:#00c853}
+.tx.green-lg{color:#5efc82}
+.headerSp .site-branding a:hover,.headerSp .site-branding h1:hover,.headerSp .site-branding p:hover,.headerSp a,.tx.green-dk{color:#009624}
+.headerSp .menu ul li a:hover,.tx.grey-sd{color:#212121}
+.tx.grey-lg{color:#484848}
+.tx.grey-dk{color:#000}
+@font-face{font-family:BenchNine-bold;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Bold.ttf);font-style:normal;font-weight:700}
+@font-face{font-family:BenchNine-reg;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Regular.ttf);font-style:normal;font-weight:700}
+@font-face{font-family:BenchNine-lig;src:url(/wp-content/themes/subtitlepro2/fonts/BenchNine-Light.ttf);font-style:normal;font-weight:700}
+.fontFBold,.headerSp{font-family:BenchNine-bold}
+.fontFReg{font-family:BenchNine-reg}
+.fontFLight{font-family:BenchNine-lig}
+h1{font-size:2rem}
+h2{font-size:1.5rem}
+a,h3,p{font-size:1rem}
+.center{margin:0 auto}
+.no_pad{padding:0!important}
+.no_mg{margin:0}
+.headerSp{box-shadow:0 4px 5px rgba(0,0,0,.3);font-size:1.2rem;position:fixed;z-index:999}
+.headerSp .site-branding img{max-height:3rem}
+.headerSp .site-branding a,.headerSp .site-branding h1,.headerSp .site-branding p{font-size:2rem;text-decoration:none}
+.headerSp .menu ul{margin:0;list-style:none;overflow:hidden}
+.headerSp .menu ul li{float:right;display:inline-block;padding:.5rem}
+.headerSp .menu ul li a{text-decoration:none;font-size:1.2rem}
